@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Joseph Adolfo Morán <josephmoran@duck.com>",
+  "license": "MIT",
+  "bin": {
+    "randomy-commit": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
